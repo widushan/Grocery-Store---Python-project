@@ -67,7 +67,7 @@ var productModal = $("#productModal");
         $.get(uomListApiUrl, function (response) {
             if(response) {
                 var options = '<option value="">--Select--</option>';
-                $.each(response, function(index, uom) {
+                $.each(response, function(_index, uom) {
                     options += '<option value="'+ uom.uom_id +'">'+ uom.uom_name +'</option>';
                 });
                 $("#uoms").empty().html(options);
