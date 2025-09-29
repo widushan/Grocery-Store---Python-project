@@ -23,6 +23,8 @@ INNER JOIN
 SELECT * FROM grocery_store.products;
 insert into products (name, uom_id, price_per_unit) values ('coconut','1', '130');
 
+SELECT * FROM grocery_store.products;
+
 
 
 
